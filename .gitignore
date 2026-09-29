@@ -1,0 +1,15 @@
+# Install dependencies on the target platform instead of committing local binaries.
+node_modules/
+
+# Vite and Vercel build output/state.
+dist/
+.vercel/
+
+# Local environment and Django development files.
+.env
+.env.*
+!.env.example
+backend/.venv/
+backend/db.sqlite3
+__pycache__/
+*.py[cod]
